@@ -283,6 +283,418 @@
       ],
       "ast": [
         "aggregate/ast/126cf2234a13a08a93d0d4cbd758a8fc77301d78/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/126cf2234a13a08a93d0d4cbd758a8fc77301d78.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "@xterm/addon-fit",
+          "ecosystem": "NPM",
+          "version": "0.11.0",
+          "githubOrg": "xtermjs",
+          "githubRepo": "xterm.js#master",
+          "githubUrl": "git+https://github.com/xtermjs/xterm.js.git#master",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@xterm/xterm",
+          "ecosystem": "NPM",
+          "version": "6.0.0",
+          "githubOrg": "xtermjs",
+          "githubRepo": "xterm.js",
+          "githubCommit": "f447274f430fd22513f6adbf9862d19524471c04",
+          "githubTag": "6.0.0",
+          "githubUrl": "git+https://github.com/xtermjs/xterm.js.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "better-sqlite3",
+          "ecosystem": "NPM",
+          "version": "12.6.2",
+          "githubOrg": "WiseLibs",
+          "githubRepo": "better-sqlite3",
+          "githubCommit": "27cb07b5926652ae0e601dc26a35714128692f18",
+          "githubTag": "v12.6.2",
+          "githubUrl": "git://github.com/WiseLibs/better-sqlite3.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "lucide-react",
+          "ecosystem": "NPM",
+          "version": "0.563.0",
+          "githubOrg": "lucide-icons",
+          "githubRepo": "lucide",
+          "githubCommit": "e9e060a851a44ab9c33e296caeec9c6c778c51d1",
+          "githubTag": "0.563.0",
+          "githubUrl": "https://github.com/lucide-icons/lucide.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "mermaid",
+          "ecosystem": "NPM",
+          "version": "11.12.3",
+          "githubOrg": "mermaid-js",
+          "githubRepo": "mermaid",
+          "githubUrl": "git+https://github.com/mermaid-js/mermaid.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "node-pty",
+          "ecosystem": "NPM",
+          "version": "1.1.0",
+          "githubOrg": "microsoft",
+          "githubRepo": "node-pty",
+          "githubCommit": "1def5774632305246fe21f0f69e23a664d6c5910",
+          "githubTag": "v1.1.0",
+          "githubUrl": "git://github.com/microsoft/node-pty.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "react",
+          "ecosystem": "NPM",
+          "version": "19.2.4",
+          "githubOrg": "react",
+          "githubRepo": "react",
+          "githubCommit": "90ab3f89f4824ac763b6f877c6f711200d1338d2",
+          "githubTag": "v19.2.4",
+          "githubUrl": "git+https://github.com/react/react.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "react-dom",
+          "ecosystem": "NPM",
+          "version": "19.2.4",
+          "githubOrg": "react",
+          "githubRepo": "react",
+          "githubCommit": "90ab3f89f4824ac763b6f877c6f711200d1338d2",
+          "githubTag": "v19.2.4",
+          "githubUrl": "git+https://github.com/react/react.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "react-markdown",
+          "ecosystem": "NPM",
+          "version": "10.1.0",
+          "githubOrg": "remarkjs",
+          "githubRepo": "react-markdown",
+          "githubCommit": "44d2e4a44b37461ab7778d6870c1a9eb36393ad2",
+          "githubTag": "10.1.0",
+          "githubUrl": "git+https://github.com/remarkjs/react-markdown.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "remark-gfm",
+          "ecosystem": "NPM",
+          "version": "4.0.1",
+          "githubOrg": "remarkjs",
+          "githubRepo": "remark-gfm",
+          "githubCommit": "109972e8a773bf5dac1d6d2da0776557f36971aa",
+          "githubTag": "4.0.1",
+          "githubUrl": "git+https://github.com/remarkjs/remark-gfm.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "ws",
+          "ecosystem": "NPM",
+          "version": "8.19.0",
+          "githubOrg": "websockets",
+          "githubRepo": "ws",
+          "githubCommit": "61349ec5dad363c56e51c68bc1c644f29af05db0",
+          "githubTag": "8.19.0",
+          "githubUrl": "git+https://github.com/websockets/ws.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@eslint/js",
+          "ecosystem": "NPM",
+          "version": "10.0.1",
+          "githubOrg": "eslint",
+          "githubRepo": "eslint",
+          "githubCommit": "0bd54976080936ce080ee2552d504180105593b4",
+          "githubTag": "v10.0.1",
+          "githubUrl": "git+https://github.com/eslint/eslint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@testing-library/dom",
+          "ecosystem": "NPM",
+          "version": "10.4.1",
+          "githubOrg": "testing-library",
+          "githubRepo": "dom-testing-library",
+          "githubCommit": "225a3e4cfaa8f8046989d51b9051df507354b644",
+          "githubTag": "v10.4.1",
+          "githubUrl": "git+https://github.com/testing-library/dom-testing-library.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@testing-library/jest-dom",
+          "ecosystem": "NPM",
+          "version": "6.9.1",
+          "githubOrg": "testing-library",
+          "githubRepo": "jest-dom",
+          "githubCommit": "0ff8904ff4683d676ff70ab68b7f08465c44d0d0",
+          "githubTag": "v6.9.1",
+          "githubUrl": "git+https://github.com/testing-library/jest-dom.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@testing-library/react",
+          "ecosystem": "NPM",
+          "version": "16.3.2",
+          "githubOrg": "testing-library",
+          "githubRepo": "react-testing-library",
+          "githubCommit": "f32bd1b033d5e3989ae1cb490d515ce389c54e53",
+          "githubTag": "v16.3.2",
+          "githubUrl": "git+https://github.com/testing-library/react-testing-library.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/better-sqlite3",
+          "ecosystem": "NPM",
+          "version": "7.6.13",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/jsdom",
+          "ecosystem": "NPM",
+          "version": "27.0.0",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/node",
+          "ecosystem": "NPM",
+          "version": "25.2.3",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/react",
+          "ecosystem": "NPM",
+          "version": "19.2.14",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/react-dom",
+          "ecosystem": "NPM",
+          "version": "19.2.3",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/ws",
+          "ecosystem": "NPM",
+          "version": "8.18.1",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@vitejs/plugin-react",
+          "ecosystem": "NPM",
+          "version": "5.1.4",
+          "githubOrg": "vitejs",
+          "githubRepo": "vite-plugin-react",
+          "githubUrl": "git+https://github.com/vitejs/vite-plugin-react.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@vitest/coverage-v8",
+          "ecosystem": "NPM",
+          "version": "4.0.18",
+          "githubOrg": "vitest-dev",
+          "githubRepo": "vitest",
+          "githubCommit": "4d3e3c61b9b237447699deab9aca0eb9d6039978",
+          "githubTag": "v4.0.18",
+          "githubUrl": "git+https://github.com/vitest-dev/vitest.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "concurrently",
+          "ecosystem": "NPM",
+          "version": "9.2.1",
+          "githubOrg": "open-cli-tools",
+          "githubRepo": "concurrently",
+          "githubCommit": "414cd016c60cb24a3a70db498946c0b7743717d5",
+          "githubTag": "v9.2.1",
+          "githubUrl": "git+https://github.com/open-cli-tools/concurrently.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "eslint",
+          "ecosystem": "NPM",
+          "version": "10.0.0",
+          "githubOrg": "eslint",
+          "githubRepo": "eslint",
+          "githubCommit": "4e6c4ac042e321da8fc29ce53ed03c86dcaa44a7",
+          "githubTag": "v10.0.0",
+          "githubUrl": "git+https://github.com/eslint/eslint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "eslint-plugin-react-hooks",
+          "ecosystem": "NPM",
+          "version": "7.0.1",
+          "githubOrg": "facebook",
+          "githubRepo": "react",
+          "githubUrl": "git+https://github.com/facebook/react.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "eslint-plugin-react-refresh",
+          "ecosystem": "NPM",
+          "version": "0.5.0",
+          "githubOrg": "ArnaudBarre",
+          "githubRepo": "eslint-plugin-react-refresh",
+          "githubCommit": "daa2efb2a2899ad7e793fc42e01bddbbc132074f",
+          "githubTag": "v0.5.0",
+          "githubUrl": "git+https://github.com/ArnaudBarre/eslint-plugin-react-refresh.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "globals",
+          "ecosystem": "NPM",
+          "version": "17.3.0",
+          "githubOrg": "sindresorhus",
+          "githubRepo": "globals",
+          "githubCommit": "5edc6020698a76964b0fa17cb604f4484451143b",
+          "githubTag": "v17.3.0",
+          "githubUrl": "git+https://github.com/sindresorhus/globals.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "husky",
+          "ecosystem": "NPM",
+          "version": "9.1.7",
+          "githubOrg": "typicode",
+          "githubRepo": "husky",
+          "githubCommit": "799e84b716d0e03db80db5d5b0dcdd15b9d555fc",
+          "githubTag": "v9.1.7",
+          "githubUrl": "git+https://github.com/typicode/husky.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "jsdom",
+          "ecosystem": "NPM",
+          "version": "28.1.0",
+          "githubOrg": "jsdom",
+          "githubRepo": "jsdom",
+          "githubCommit": "12949b524ca234c15146dbbcc2aa756deb20fa03",
+          "githubTag": "v28.1.0",
+          "githubUrl": "git+https://github.com/jsdom/jsdom.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "lint-staged",
+          "ecosystem": "NPM",
+          "version": "16.2.7",
+          "githubOrg": "lint-staged",
+          "githubRepo": "lint-staged",
+          "githubCommit": "0c1b000af8688366077ecc7093333e8a701c4f7c",
+          "githubTag": "v16.2.7",
+          "githubUrl": "git+https://github.com/lint-staged/lint-staged.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "prettier",
+          "ecosystem": "NPM",
+          "version": "3.8.1",
+          "githubOrg": "prettier",
+          "githubRepo": "prettier",
+          "githubCommit": "90983f40dce5e20beea4e5618b5e0426a6a7f4f0",
+          "githubTag": "3.8.1",
+          "githubUrl": "git+https://github.com/prettier/prettier.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "stylelint",
+          "ecosystem": "NPM",
+          "version": "17.3.0",
+          "githubOrg": "stylelint",
+          "githubRepo": "stylelint",
+          "githubCommit": "6f1b66717bfbb573e2d9c275ed0b8f8e4a6e9a6f",
+          "githubTag": "17.3.0",
+          "githubUrl": "git+https://github.com/stylelint/stylelint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "stylelint-config-standard",
+          "ecosystem": "NPM",
+          "version": "40.0.0",
+          "githubOrg": "stylelint",
+          "githubRepo": "stylelint-config-standard",
+          "githubCommit": "fbbe7b8e3efaf6ad84084268944be412e4bee3df",
+          "githubTag": "40.0.0",
+          "githubUrl": "git+https://github.com/stylelint/stylelint-config-standard.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "tsx",
+          "ecosystem": "NPM",
+          "version": "4.21.0",
+          "githubOrg": "privatenumber",
+          "githubRepo": "tsx",
+          "githubCommit": "f6284cd50575ce6e8d110f63266d66cb9cde3b88",
+          "githubTag": "v4.21.0",
+          "githubUrl": "git+https://github.com/privatenumber/tsx.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript",
+          "ecosystem": "NPM",
+          "version": "5.9.3",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "githubCommit": "c63de15a992d37f0d6cec03ac7631872838602cb",
+          "githubTag": "v5.9.3",
+          "githubUrl": "git+https://github.com/microsoft/TypeScript.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript-eslint",
+          "ecosystem": "NPM",
+          "version": "8.55.0",
+          "githubOrg": "typescript-eslint",
+          "githubRepo": "typescript-eslint",
+          "githubCommit": "fedfe8665afbabd5c7d3ee09d14f450d5ba0b10a",
+          "githubTag": "v8.55.0",
+          "githubUrl": "https://github.com/typescript-eslint/typescript-eslint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vite",
+          "ecosystem": "NPM",
+          "version": "7.3.1",
+          "githubOrg": "vitejs",
+          "githubRepo": "vite",
+          "githubCommit": "95e8923f35d0252c9f6eb2d5e358c084542706f1",
+          "githubTag": "v7.3.1",
+          "githubUrl": "git+https://github.com/vitejs/vite.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vitest",
+          "ecosystem": "NPM",
+          "version": "4.0.18",
+          "githubOrg": "vitest-dev",
+          "githubRepo": "vitest",
+          "githubCommit": "4d3e3c61b9b237447699deab9aca0eb9d6039978",
+          "githubTag": "v4.0.18",
+          "githubUrl": "git+https://github.com/vitest-dev/vitest.git",
+          "source": "build_file:package.json"
+        }
       ]
     }
   ],
