@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/thread-manager-for-amp/commit/126cf2234a13a08a93d0d4cbd758a8fc77301d78",
       "git:hexsha": "126cf2234a13a08a93d0d4cbd758a8fc77301d78",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     }
   ]
