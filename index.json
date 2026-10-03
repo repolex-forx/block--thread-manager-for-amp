@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "thread-manager-for-amp",
+  "versions": [
+    {
+      "commit": "126cf2234a13a08a93d0d4cbd758a8fc77301d78",
+      "tag": "main",
+      "parsed_at": "2026-10-03T10:28:51.777852+00:00"
+    }
+  ]
+}
