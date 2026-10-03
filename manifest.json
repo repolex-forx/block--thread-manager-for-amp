@@ -695,7 +695,9 @@
           "githubUrl": "git+https://github.com/vitest-dev/vitest.git",
           "source": "build_file:package.json"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/126cf2234a13a08a93d0d4cbd758a8fc77301d78/chunk-001.nq.gz",
+      "dep": "dep/126cf2234a13a08a93d0d4cbd758a8fc77301d78.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
